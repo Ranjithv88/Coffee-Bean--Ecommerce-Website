@@ -1,10 +1,10 @@
-package com.SpringBoot.CoffeeBean;
+package com.SpringBoot.CoffeeBean_BackEnd;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CoffeeBeanApplicationTests {
+class CoffeeBeanBackEndApplicationTests {
 
 	@Test
 	void contextLoads() {

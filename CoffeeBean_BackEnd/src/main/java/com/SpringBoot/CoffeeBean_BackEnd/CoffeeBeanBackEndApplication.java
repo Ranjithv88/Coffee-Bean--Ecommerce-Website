@@ -1,13 +1,13 @@
-package com.SpringBoot.CoffeeBean;
+package com.SpringBoot.CoffeeBean_BackEnd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoffeeBeanApplication {
+public class CoffeeBeanBackEndApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CoffeeBeanApplication.class, args);
+		SpringApplication.run(CoffeeBeanBackEndApplication.class, args);
 	}
 
 }

@@ -9,16 +9,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.SpringBoot</groupId>
-	<artifactId>CoffeeBean</artifactId>
+	<artifactId>CoffeeBean_BackEnd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CoffeeBean</name>
+	<name>CoffeeBean_BackEnd</name>
 	<description> This Project Build to Spring FrameWork and MySQL Server and That is The CoffeeBean C-Commerce Website BackEnd </description>
 	<url/>
 	<licenses>
 		<license/>
 	</licenses>
 	<developers>
-
 		<developer/>
 	</developers>
 	<scm>
@@ -111,6 +110,7 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -118,17 +118,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
 
 </project>
-
