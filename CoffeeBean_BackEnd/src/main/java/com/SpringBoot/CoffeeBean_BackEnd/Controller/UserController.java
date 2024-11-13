@@ -2,11 +2,10 @@ package com.SpringBoot.CoffeeBean_BackEnd.Controller;
 
 import com.SpringBoot.CoffeeBean_BackEnd.Model.User;
 import com.SpringBoot.CoffeeBean_BackEnd.Service.UserService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.data.mongodb.core.MongoOperations;
+import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
@@ -20,5 +19,11 @@ public class UserController {
     public List<User> get(){
         return service.getAll();
     }
+
+    @PostMapping("post")
+    public String post(@Valid @RequestBody User user){
+        return service.PostService(user);
+    }
+
 }
 

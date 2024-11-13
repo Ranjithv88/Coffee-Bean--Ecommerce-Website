@@ -94,6 +94,12 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- Dependency for AOP -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+
 		<!-- Dependency for Testing -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
